@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	padding: 0;
+	margin-right: 0;
+	font-family: 'Dancing Script', cursive;
+	background-color: #02010a;
+	display: block;
+}
+
+header{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	padding: 0;
+	background: #5b7989;
+	color: white;
+	border-radius: 10px 10px 0 0;
+}
+header h1{
+	margin: 0;
+	padding: 10px;
+	text-align: left;
+	text-shadow: 2px 2px #02010a;
+}
+
+header nav{
+	padding: 5px;
+	text-align: right;
+}
+
+nav a{
+	padding: 5px;
+	color: white;
+}
+
+#contenido{
+	margin: auto;
+	text-align: center;
+	width: 900px;
+	background-color: black;
+}
+
+#central{
+	margin: 0;
+	padding: 20px;
+	background-color: #82c3a6;
+}
+#central img{
+	text-align: center;
+	width: 80%;
+}
+
+#secundaria{
+	background-color: #d5c75f;
+	border: 1px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+#retrato img{
+	text-align: center;
+	width: 80%;
+	box-shadow: 2px 2px #82c3a6;
+	transition: transform 1s;
+}
+
+#retrato img:hover{
+	transform: rotate(10deg);
+}
+
+#paisaje img{
+	text-align: center;
+	width: 80%;
+	box-shadow: 2px 2px #82c3a6;
+}
